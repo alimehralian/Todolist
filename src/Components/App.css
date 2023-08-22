@@ -1,0 +1,75 @@
+body{
+    background-color: #352f5b;
+  }
+  
+  .container{
+    max-width: 450px;
+  }
+  
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  
+  li.list-group-item{
+    background-color: #423a6f;
+    color: #F8F9FA;
+  }
+  
+  .delete{
+    cursor: pointer;
+  }
+  
+  label.add{
+    margin-bottom: 15px;
+  }
+  
+  .filtred{
+    display: none !important;
+  }
+  .nav-link{
+    color: #fff;
+  }
+  .nav-item{
+    position: relative;
+  }
+  .nav-item :hover{
+    cursor: pointer;
+    color: #fff;
+  }
+  .nav-tabs{
+    margin-bottom: 8px;
+  }
+  .counter{
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    left: -2px;
+    background-color: rgb(191, 63, 208);
+    height: 18px;
+    width: 18px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+  }
+  .btn-close{
+    color: #fff;
+  }
+  .toast{
+    transition: 3s;
+  }
+  .deleteIcon{
+    font-size: 16px;
+    color: #fa6161;
+  }
+  .doneIcon{
+    font-size: 16px;
+    color: #6efa61;
+    margin-right: 10px;
+  }
+  .deleteIcon:hover , .doneIcon:hover{
+    cursor: pointer;
+  }
